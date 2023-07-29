@@ -9,100 +9,92 @@ document.getElementById("resetbtn").addEventListener("click",(e)=> {
 });
 const searchBtn = document.getElementById("search");
 let courseList;
-searchBtn.addEventListener("click",(e)=>{
-    console.log(courseList);
+searchBtn.addEventListener("click",async (e)=>{
     const course = document.getElementById("course").value.toUpperCase();
+    const courseJSON = courseList.files.find(c=>c.name.includes(course));
+    
     let exam = document.getElementById("exam").value.toLowerCase().trim();
-    if(exam=="")
-    {
-        exam = "ALL"
-    }
-    fetch("./courses.json")
-        .then(d=>d.json())
-        .then(d=>{
-            for(var i=0;i<d.length;i++)
-            {
-                const courseTitle = d[i].courseTitle;
-                const courseCode = d[i].courseCode;
-                const mid = d[i].mid;
-                const final = d[i].final;
-                const courseName = courseCode+" - "+ courseTitle
-                if(courseName.toUpperCase().search(course)!=-1 && (mid!="" || final!=""))
-                {
-                    
-                    // data = fetchData(d[i][exam]);
-                    // console.log(data)
-                    // displayResult(data);
-                    const url = `https://gdriveapi.airamtafir.workers.dev/?dId=${d[i][exam]}`
-                    return fetch(url)
-                   
-                }
-            }
-        })
-        .then(d=> 
-            {
-                if (!d.ok) {
-                    throw new Error("HTTP status " + d.status);
-                }
-                DisplayLoader();
-                return d.json()
-            })
-        .then(d=> {
-            const loader = document.getElementById("loader");
+    
+    DisplayLoader();
+    const courseData = await fetchJSON(`https://gdriveapi.airamtafir.workers.dev/?dId=${courseJSON.id}`)
+    console.log(courseData);
+    const loader = document.getElementById("loader");
             loader.style.display = "none";
-             console.log(d.files)
-            // return d.files;
-            displayResult(d.files);
-            // if(d.status==200 && d.result.length>0)
-            // {
-            //     displayResult(d,id);
-            // }
-            // else
-            // {
-            //     document.getElementById("heading").textContent = "";
-            //     const resultTable = document.getElementById("resultTable");
-            //     resultTable.innerHTML="";
-            //     document.getElementById("heading").textContent =   "Result Not Found";
-            //     document.getElementById("head").style.display= "flex";
-            // }
+            const mid = courseData.files.find(f=>f.name=="MID");
+            const final = courseData.files.find(f=>f.name=="FINAL");
+            const midData = await fetchJSON(`https://gdriveapi.airamtafir.workers.dev/?dId=${mid.id}`)
+            const finalData = await fetchJSON(`https://gdriveapi.airamtafir.workers.dev/?dId=${final.id}`)
+            const midFinalData = midData.files.concat(finalData.files);
+
+    if(exam=="mid")
+    {
+        displayResult(midData.files,courseJSON.name);
+    }
+    else if(exam=="final")
+    {
+        displayResult(finalData.files,courseJSON.name);
+
+    }
+    else
+    {
+        displayResult(midFinalData,courseJSON.name)
+    }
+
+
+
+    //     .then(d=>d.json())
+    //     .then(d=>{
+    //         for(var i=0;i<d.length;i++)
+    //         {
+    //             const courseTitle = d[i].courseTitle;
+    //             const courseCode = d[i].courseCode;
+    //             const mid = d[i].mid;
+    //             const final = d[i].final;
+    //             const courseName = courseCode+" - "+ courseTitle
+    //             if(courseName.toUpperCase().search(course)!=-1 && (mid!="" || final!=""))
+    //             {
+                    
+    //                 // data = fetchData(d[i][exam]);
+    //                 // console.log(data)
+    //                 // displayResult(data);
+    //                 const url = `https://gdriveapi.airamtafir.workers.dev/?dId=${d[i][exam]}`
+    //                 return fetch(url)
+                   
+    //             }
+    //         }
+    //     })
+    //     .then(d=> 
+    //         {
+    //             if (!d.ok) {
+    //                 throw new Error("HTTP status " + d.status);
+    //             }
+    //             DisplayLoader();
+    //         })
+    //     .then(d=> {
+    //         const loader = document.getElementById("loader");
+    //         loader.style.display = "none";
+    //          console.log(d.files)
+    //         // return d.files;
+    //         displayResult(d.files);
+    //         // if(d.status==200 && d.result.length>0)
+    //         // {
+    //         //     displayResult(d,id);
+    //         // }
+    //         // else
+    //         // {
+    //         //     document.getElementById("heading").textContent = "";
+    //         //     const resultTable = document.getElementById("resultTable");
+    //         //     resultTable.innerHTML="";
+    //         //     document.getElementById("heading").textContent =   "Result Not Found";
+    //         //     document.getElementById("head").style.display= "flex";
+    //         // }
             
-        });
+    //     });
 });
-// function fetchData(id)
-// {
-//     const url = `https://gdriveapi.airamtafir.workers.dev/?dId=${id}`
-//     fetch(url)
-//         .then(d=> 
-//             {
-//                 if (!d.ok) {
-//                     throw new Error("HTTP status " + d.status);
-//                 }
-//                 DisplayLoader();
-//                 return d.json()
-//             })
-//         .then(d=> {
-//             const loader = document.getElementById("loader");
-//             loader.style.display = "none";
-//             // console.log(d.files)
-//             return d.files;
-//            // displayResult(d.files);
-//             // if(d.status==200 && d.result.length>0)
-//             // {
-//             //     displayResult(d,id);
-//             // }
-//             // else
-//             // {
-//             //     document.getElementById("heading").textContent = "";
-//             //     const resultTable = document.getElementById("resultTable");
-//             //     resultTable.innerHTML="";
-//             //     document.getElementById("heading").textContent =   "Result Not Found";
-//             //     document.getElementById("head").style.display= "flex";
-//             // }
-            
-//         });
-// }
-function displayResult(data)
+
+function displayResult(data,course)
 {
+    document.getElementById("totalStudents").textContent =   course;
     const resultDiv = document.getElementById("results");
     const resultTable = document.getElementById("resultTable");
     const tableHeading = ["Exam","Season","Year","View","Download","Size"];
@@ -132,9 +124,7 @@ function displayResult(data)
         tr.appendChild(view); 
 
         const download = document.createElement("td");
-        tr.appendChild(download);
-
-        
+        tr.appendChild(download);        
 
         const size = document.createElement("td");
         tr.appendChild(size);
@@ -143,11 +133,27 @@ function displayResult(data)
         year.innerText = data[i].name.split("_")[0];
         exam.innerText = data[i].name.split("_")[2];
         season.innerText = data[i].name.split("_")[1];
-        download.innerHTML = `<a href="https://gdriveapi.airamtafir.workers.dev/?id=${data[i].id}&download=true"><img src="724933.png"  height="30"></a>`;
-        view.innerHTML = `<a id="${data[i].id}"><img src="72647.png"  height="30"></a>` ;
+
+        
+        download.innerHTML = `<a  download="${data[i].id}"><img src="724933.png"  height="30"></a>`;
+        view.innerHTML = `<a id="${data[i].id}"><img src="72647.png"  height="30" download="${data[i].name}"></a>` ;
         size.innerText = formatBytes(data[i].size);
         view.childNodes[0].className = "popup-btn";
+        download.childNodes[0].className = "download-btn";
     }
+
+    document.querySelectorAll(".download-btn").forEach(download=>{
+        download.addEventListener("click",async e=>{
+            const url = `https://gdriveapi.airamtafir.workers.dev/?id=${download.download}&download=true`
+            const response = await fetch(url);
+            const blob = await response.blob();
+            const a = document.createElement('a');
+            a.href = window.URL.createObjectURL(blob);
+
+            a.download = (await fetchJSON(`https://gdriveapi.airamtafir.workers.dev/?id=${download.download}`)).name;
+            a.click();
+        })
+    })
 
     document.querySelectorAll(".popup-btn").forEach(view=>{
         view.addEventListener("click",(e)=>{
@@ -174,6 +180,7 @@ function displayResult(data)
                     })
 
                     popupBox.data = window.URL.createObjectURL(res);
+                    location.href = "#results"
                     console.log(popupBox)
                     popupWrap.style.display = 'block';
                     popupBox.classList.remove('transform-out');
@@ -189,11 +196,12 @@ function displayResult(data)
 
 document.querySelector(".popup-close").addEventListener("click",(e)=>{
     var popupWrap = document.querySelector('.popup-wrap');
-    popupWrap.innerHTML = "";
+    
     var popupBox = document.querySelector('.popup-box');
     popupWrap.style.display = 'none';
       popupBox.classList.remove('transform-in');
       popupBox.classList.add('transform-out');
+      popupWrap.innerHTML = "";
 
       e.preventDefault();
 })
