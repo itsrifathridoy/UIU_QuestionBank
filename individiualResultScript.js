@@ -11,10 +11,10 @@ const searchBtn = document.getElementById("search");
 let courseList;
 searchBtn.addEventListener("click",async (e)=>{
     const course = document.getElementById("course").value.toUpperCase();
-    if(course!=""){
-    
     const courseJSON = courseList.files.find(c=>c.name.includes(course));
-    
+    console.log(courseJSON)
+    if(course!="" && courseJSON!=undefined){
+        
     let exam = document.getElementById("exam").value.toLowerCase().trim();
     let year = document.getElementById("year").value;
     
