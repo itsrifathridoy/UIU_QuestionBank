@@ -1,0 +1,465 @@
+[
+    {
+        "courseCode": "CSE 1116",
+        "courseTitle": "Object Oriented Programming Lab (OOP Lab)",
+        "mid": "1Et1nSlWmAL4oYEz3YMR97OK2QHaekFsq",
+        "final": "1EskjeT8RCE6IjWP4HYtH1MMX9N2L8UBE",
+        "assignment": "1Mpp9sgLspSTCD7umXYr2zqPPOX1eMPka",
+        "ct": "1MqKmbgifC7xtJqdUvAPNHR9ykxOiGk8a",
+        "others": "1MtGMYGeNmBBL3tU3tkgnUjzTqOqcDsfm",
+        "video": ""
+    },
+    {
+        "courseCode": "CSE 3842",
+        "courseTitle": "Artificial Intelligence Laboratory",
+        "mid": "1GOwwzLJ4P8QfiB5nPigDwfoZXjy6y6s8",
+        "final": "1GPckyiOSgsQhtmQOSPdglvlCUqr-QqNs",
+        "assignment": "1NMcpXzWKMf7aIpGgB9wxKx_oEtJVtTcp",
+        "ct": "1NQ3GAgTu2yUwT1IscCiSOItbhfeyvBxK",
+        "others": "1NVK56Aaah2hkfuh7DKI56i5s6xvaoCVo",
+        "video": ""
+    },
+    {
+        "courseCode": "BIO 3105",
+        "courseTitle": "Biology for Engineers",
+        "mid": "1AmEAyNm1hX9Fh-BYNBg2k5GCzVqkHEt-",
+        "final": "1AmuuAVuJDZyR8LpiOs5Yw-9Rrx5NP6-c",
+        "assignment": "1RlpATgwpirrF3_aBE2D4sEFNv4Q7t6gQ",
+        "ct": "1B8CJ3T3EoLjwo1sDsK1E1_BEaXhWqkq9",
+        "others": "1Ayil2zqLw96SYwqHstAwJInRkXVfQy96",
+        "video": ""
+    },
+    {
+        "courseCode": "EEE 2113",
+        "courseTitle": "Electrical Circuit (EC)",
+        "mid": "1HYhsAWcmBW4Io45W5j7CG_I18Cijp3g6",
+        "final": "1HZPdiAWIxkzDHnNA-hFMe5MZfwJaLH_q",
+        "assignment": "1QfrJZRRSgEo9613Z8n0QlDflYdnaUZt_",
+        "ct": "1QhXinUs2qxhKpsw6dMvzJog5mnmU6-LU",
+        "others": "1QeQ0_B1fu51c5BJBX8QDOkxpJmFEY67a",
+        "video": ""
+    },
+    {
+        "courseCode": "CSE 4509",
+        "courseTitle": "Operating Systems",
+        "mid": "1F5rSPmzDNUxvVfvzpt36fM41ppc6XllK",
+        "final": "1EwreQUQBfdYlRoOjvRCvLgRKA_NPrD4Z",
+        "assignment": "1N2KJmej-khwXKV45vv3JFx55DPbiTPKW",
+        "ct": "1N6ytIeuMWD2PE--YYVuY6huJJhKDBSNs",
+        "others": "1MtW9S3GDkXwKPV3D-WwJRhVW6BHh-RHB",
+        "video": ""
+    },
+    {
+        "courseCode": "CSE 1115",
+        "courseTitle": "Object Oriented Programming (OOP)",
+        "mid": "1HVrqdA4yTbEZgc7dE0qPftyHYVNkyjWc",
+        "final": "1HOxoi2qUeprIfUlBzsTIyF6kmcI3-UdY",
+        "assignment": "1QanlitM6iG_FFaTIH30irDShaMunyROl",
+        "ct": "1QcO4fr2xj3ErAJwdRPFGi69xFAckUTR3",
+        "others": "1Q_Mvd5dpl22Xa0jyHB6awYzOZJDpe185",
+        "video": ""
+    },
+    {
+        "courseCode": "PHY 2105",
+        "courseTitle": "Physics",
+        "mid": "1EmzK3NbbRTuqYk3Gvl4sv-tNCRhO3JGx",
+        "final": "1EiPo6tI0llotpphNjy5fqutYkbPNVPvX",
+        "assignment": "1Kb87Wj0ANc39w4hKuRxH-9ylVjNHoTAW",
+        "ct": "1KfxXX0pISD0DRvsw34XOO1zI-N2T0cFc",
+        "others": "1IwcnPfASqvzevxx78lJYC-ZIPi9B9h5H",
+        "video": ""
+    },
+    {
+        "courseCode": "CSE 4165",
+        "courseTitle": "Web Programming (Web)",
+        "mid": "1DbhC1drPFWX972nB76icy9bciCpX7NCo",
+        "final": "1DcVB-2QIHHvOKuxJLhUNE56a8zOVpTxc",
+        "assignment": "1JQrKVIvCSvLYVuXE4HStSs-IkpnwST-f",
+        "ct": "1JWnRmqCASRTsiMS0AG9zB66G_k5_r8UP",
+        "others": "1JQsia4nHW61IgUH73W4tXPjrkvW3njVu",
+        "video": ""
+    },
+    {
+        "courseCode": "CSE 1111",
+        "courseTitle": "Structured Programming Language (SPL)",
+        "mid": "1Ccwr_aZGDHPp6TkP-M_qymhV612HobCF",
+        "final": "1Egz4ExL8VFqFWiyw2BtjtlqZfCreP69y",
+        "assignment": "1MGz0ta_qC_6Hbx0_LS4DqDUX6Zdz2Tky",
+        "ct": "1MIBp_qTgsGBQPLf7fNnZocqUFHW9lX9y",
+        "others": "1MFkraQArjazJA1uWnKUTKwcE2O9UAsrV",
+        "video": ""
+    },
+    {
+        "courseCode": "CSE 1112",
+        "courseTitle": "Structured Programming Language Lab (SPL Lab)",
+        "mid": "1Ccwr_aZGDHPp6TkP-M_qymhV612HobCF",
+        "final": "1Egz4ExL8VFqFWiyw2BtjtlqZfCreP69y",
+        "assignment": "1MGz0ta_qC_6Hbx0_LS4DqDUX6Zdz2Tky",
+        "ct": "1MIBp_qTgsGBQPLf7fNnZocqUFHW9lX9y",
+        "others": "1MFkraQArjazJA1uWnKUTKwcE2O9UAsrV",
+        "video": ""
+    },
+    {
+        "courseCode": "MATH 2205",
+        "courseTitle": "Probability and Statistics (PS)",
+        "mid": "1I6OfxaJa70dkq7zA-3rCGB70_CrCCVt0",
+        "final": "1I3iLb3fsJYHzoCM6nInhGHLvunxCwCej",
+        "assignment": "1PulgAAUualD2jp3HvX53It-Ezr_avEwZ",
+        "ct": "1PqG5chcov6VQNLr8Irbap8ul7xnk3J0S",
+        "others": "1PqeFO4i22P5JXpB6pldEL3SfITRZSIy-",
+        "video": ""
+    },
+    {
+        "courseCode": "CSE 3715",
+        "courseTitle": "Data Communication (DC)",
+        "mid": "1FfxZPiMfZf467GcNKBWrHH7cFqhW3Uyr",
+        "final": "1FclTUZZbgl3dRTVYpiNg9fMgPuLcXhrZ",
+        "assignment": "1LXeXoDDBTAs7fooH5tc32S8IfEFM_PjA",
+        "ct": "1LU4Jh7YhkRSGZuqchE_8AvlUZeXYTyWn",
+        "others": "1LX-OExYRWFdGK_29FhSWwMQUsLa9qjn8",
+        "video": ""
+    },
+    {
+        "courseCode": "CSE 4893",
+        "courseTitle": "Introduction to Bioinformatics",
+        "mid": "1HdCc14iPFdVse24gESkou9N2QvVFmIHB",
+        "final": "1Hh5GA2E1YrkNU_F2tExOGVZynwfRHYCp",
+        "assignment": "1QobBWpUZIM4Y7YuWmpjIQV-C3q-tpGtq",
+        "ct": "1QupMIdZlKw4r1XUZl7XvoF5dN-rG4CLG",
+        "others": "1QqIhG1zy9lFzVeE0hXQ4-og-JyMHHS06",
+        "video": ""
+    },
+    {
+        "courseCode": "SOC 2101",
+        "courseTitle": "Society, Environment and Engineering Ethics",
+        "mid": "1G_-nVPseBwMVYldM7TQDPbPqpztCIN1G",
+        "final": "1GSKGDPIpPGgOwcmh4pdjZ8b2bZS24GOP",
+        "assignment": "1R9hkWgUWylfHoZE6kbxcbdW4nYVSfppF",
+        "ct": "1R4p9xnUGAfd0v2YS34FmIPJKNOHADSDO",
+        "others": "1R7mST27JHIFCKIiD3NsEEhdQm_JB0Vn4",
+        "video": ""
+    },
+    {
+        "courseCode": "CSE 3412",
+        "courseTitle": "System Analysis and Design Laboratory",
+        "mid": "1G_xpBi7fjd_Rb-WCvuFk9xGWu_wrBTSF",
+        "final": "1Gf7Hx9O1jqpxChJx7fVX_fq2PqXPzJb_",
+        "assignment": "1PZxhuMqMDxDNEZrgpYFR8LONxJKnemqL",
+        "ct": "1PavYBMOdByZEDUr3Ya97QcBswna0yU4w",
+        "others": "1PTQ5aLrNL7FUn3HmmQC-xHlbjI5h_kp3",
+        "video": ""
+    },
+    {
+        "courseCode": "CSE 2215",
+        "courseTitle": "Data Structure & Algorithm 1 (DSA1)",
+        "mid": "1-ON-glRZJycY6mdP7fYvtJwXg5decPI3",
+        "final": "1-XqFrWhn_r7zVK36axAAGvzK0clxVHYp",
+        "assignment": "1RtHvbz6Zyf1SCoPQljCzeq-jZz30rfC1",
+        "ct": "1S2u-ceUziXLRFChekwX8UmnzEeGNvHqC",
+        "others": "1S4FOLjepzmWaMJrNjinRxc2H8gtEhWd0",
+        "video": ""
+    },
+    {
+        "courseCode": "CSE 4889",
+        "courseTitle": "Machine Learning",
+        "mid": "1F8S7RtWSGwURNBK3hFW8hVO9kiiJephl",
+        "final": "1F7c7BvRMO-nmluTnhChdUCCevr-q1d5z",
+        "assignment": "1Nl4n3-w_wVCOheUvqPx5Z1-BMrQDV12l",
+        "ct": "1NlELz_ENTHorECqGim0aZcjsBSWS3LKI",
+        "others": "1LuIlhuy96yBkerRKyoydsCONxWOA207m",
+        "video": ""
+    },
+    {
+        "courseCode": "CSE 3521",
+        "courseTitle": "Database Management Systems",
+        "mid": "1I-exehO-nO8Y1vyyT_WF6sUsaKthIgfc",
+        "final": "1HynZWZf-JFZHIVvVBGnAJwAPieRsZH5D",
+        "assignment": "1Pk_hpDQQWCXzt79cYjq0Sp1FhUCWI6Jp",
+        "ct": "1PnAog1AErliLzT8xCi2OD-DbPnZDVuIY",
+        "others": "1PoTNLRPs16UFXXoOxZNDCT-UfBy9G0pY",
+        "video": ""
+    },
+    {
+        "courseCode": "ACT 2111",
+        "courseTitle": "Financial and Managerial Accounting",
+        "mid": "1Hmh5F04P6WSGsBaxaqs2KbWUwKzTuyyw",
+        "final": "1HiNPqvQdR9GWVmmosdRVtYFAVkpTvLD3",
+        "assignment": "1QkUeMyiXNiZL-seHaG9Zvee9vRpKpG34",
+        "ct": "1QoaVVgdhwg4VOYf8c35rjx0yGhx9ECXY",
+        "others": "1Qhk-m_munRLHkcyGtCqLpinonW4lHK6d",
+        "video": ""
+    },
+    {
+        "courseCode": "CSE 1326",
+        "courseTitle": "Digital Logic Design Lab (DLD Lab)",
+        "mid": "1E1K0I5T7DiJSNbcWh8DnIYT015ASiPBq",
+        "final": "1E5xj6kEQJOQKw54KGrm1cfkEMlc6Oj-0",
+        "assignment": "1MS2TtaJ9GnCp4DM-sRoSQPHDAQ8cYw_0",
+        "ct": "1MLvraXUqrpeWpTjoJpUT9tCIX0x3btTB",
+        "others": "1MS1z0Fj0ODmuiEZZJx-MKGa_lNJPa5GQ",
+        "video": ""
+    },
+    {
+        "courseCode": "CSE 1325",
+        "courseTitle": "Digital Logic Design (DLD)",
+        "mid": "1FrTAF_ZsPijon79Yyx9cIhx5HuWRgr69",
+        "final": "1ICk-5DaZboR7YpE7qFGnK0u10OcIKqXS",
+        "assignment": "1Q5qHEUfCq1IlqN5xN0UBDCHZCuex5j7_",
+        "ct": "1Q9knSd4FC6WdfiYky0M9GWXIoNjjRUOq",
+        "others": "1QBHT5EatlY8tHvKsSTuu0W9O4ag0K2u1",
+        "video": ""
+    },
+    {
+        "courseCode": "CSE 2233",
+        "courseTitle": "Theory of Computation (TOC)",
+        "mid": "1D0Hz2Gc1PYKezMWJWL3Y9ux6CFezhvIq",
+        "final": "1D-GEp-C57s7ekMpVgQu-VTP7ymyHw1mF",
+        "assignment": "1KVw3sDPSyes21xWQxO4RTnymldaLbSK5",
+        "ct": "1KV5GCiFAtsKrVbj6NqoMnRpJHGvCEqu_",
+        "others": "1KVESSydJsaOWTi1fffw4tFPu3p6X8RA4",
+        "video": ""
+    },
+    {
+        "courseCode": "CSE 2216",
+        "courseTitle": "Data Structure & Algorithm 1 Lab (DSA1 Lab)",
+        "mid": "1GtATcHmy__NLV8lFIJFxy5RQS7QLrGnc",
+        "final": "1GhALZoLBgtRYEYcP3yeVYgqTVB5zuadn",
+        "assignment": "1REvOpNxNJG3uCsIuKAzeMFViBHInZVJP",
+        "ct": "1RIHk7Loicr9TABYoGC7KlRI7RCX7jHFT",
+        "others": "1RPUvMFZaWFcivCYSn8l6b_U1zor0OGJY",
+        "video": ""
+    },
+    {
+        "courseCode": "CSE 4524",
+        "courseTitle": "Simulation And Modeling Lab",
+        "mid": "1FQzVqbN0XQfo-x5I2I5LJMnxl9RXvRFC",
+        "final": "1F90TwF65bFOjhcG_WlW1fLsPq706UCX9",
+        "assignment": "1NX1k0P6-6lxggxeYLFaRSBLWAxSvNrbn",
+        "ct": "1NelINW4hL92LariSATvYKQ9wWlbdHwx9",
+        "others": "1Nkw4RiQ2Hx8pSjt1pssp-bIxUsu2I6oH",
+        "video": ""
+    },
+    {
+        "courseCode": "CSE 4510",
+        "courseTitle": "Operating Systems Laboratory",
+        "mid": "1HKkrN8yNgxjvCKTWCP7C7QG37lKM_y65",
+        "final": "1HF_asRn37oPCWIe04Q3IFbmBnBWASPvS",
+        "assignment": "1QZ6JfBFhbOIVu81Phq2_70BZiGYnH_st",
+        "ct": "1S61RLxGu_sFurWSqvFTugDBmMIHW1FCd",
+        "others": "1SCMpoCfVFSg0os9z95UNsvTlerhYIxf8",
+        "video": ""
+    },
+    null,
+    {
+        "courseCode": "CSE 2118",
+        "courseTitle": "Advanced Object Oriented Programming Laboratory (AOOP Lab)",
+        "mid": "1D-2mUFPGsVCz-EUrB-kWMjf5pLtJDWqP",
+        "final": "1Cuf35_pKnCxhMz1Wuc8KkX0xTv7Lxy5m",
+        "assignment": "1KX9L_3VOFFT9vtRD_SCe0r6hn_fX4pfQ",
+        "ct": "1KXoFLjY7qGr1tIzGEW1MY97ok-tnkbgD",
+        "others": "1KX2afqNq8mpM8sBR7Ebv4VpMkQVM1I-5",
+        "video": ""
+    },
+    {
+        "courseCode": "CSE 3313",
+        "courseTitle": "Computer Architecture (CA)",
+        "mid": "1DjrVQQztrI19QxgIjrZv8vh5keZFx-xB",
+        "final": "1DhoQDnT7CELoTRD98mkYpLqqOtMuZLe0",
+        "assignment": "1IkFXv6XUxbYWwVFVwvml5ZMYgo_Idown",
+        "ct": "1IpCXcSw-0jJXGympLAPBj2oTIf0vHBOn",
+        "others": "1IdpR8Y-UyQQvqoI1TTXg_Hpwej1Eb_xz",
+        "video": ""
+    },
+    null,
+    {
+        "courseCode": "EEE 2123",
+        "courseTitle": "Electronics",
+        "mid": "1DBgPMQVXb-6t0X9a9ewBDklBPQW4MJ6_",
+        "final": "1D2ikPff0K_XMUC9pDD9yotnf_JBqbSdS",
+        "assignment": "1KRhG_JKyVVhLY02qJBoaY58xnd_E5hyv",
+        "ct": "1KL16lrNKZVMUO1JjmCJggG3BRT_lsjrl",
+        "others": "1KPeuBLZ7UoYM-1KF5djCrDl_kzDeGr2E",
+        "video": ""
+    },
+    {
+        "courseCode": "MATH 1151",
+        "courseTitle": "Fundamental Calculus",
+        "mid": "1EanBnuTT1_a3X6mW0OG0LcFzsv0ErV77",
+        "final": "1EcWJaQZbmVIEsh0L0n6TRYfCINLNfib0",
+        "assignment": "1LDk8uGxGu0vOsGaXPPez_059E92Iej0r",
+        "ct": "1LHojdjPJ5SiZgRbd5IYueG1HwnavabFJ",
+        "others": "1LHGbBg9j4mdPjF0wccSh6Q5jqxxzmeIx",
+        "video": ""
+    },
+    {
+        "courseCode": "CSE 3712",
+        "courseTitle": "Computer Networks Laboratory",
+        "mid": "1GJOywZ-8myUWN6UlPPlsQIFSldt3DSHN",
+        "final": "1GGM_bMw43-8tpdP5aJVE2uTzcpHlx8Fl",
+        "assignment": "1O_GhAFumdZmVWaM0j9Pvbp8DzPskawGk",
+        "ct": "1OaQxL2EF1Sav2QYrljVblt4aUVB-FfXH",
+        "others": "1Oc2hsbRyHPotegajgDCwPjRe9nd31kzw",
+        "video": ""
+    },
+    {
+        "courseCode": "CSE 2217",
+        "courseTitle": "Data Structure & Algorithm 2 (DSA2)",
+        "mid": "1HurtJ88L4JcToZRsycVf1ZSqzl7XndzL",
+        "final": "1HsEnUl3j3FPPfE33K0QsXNWjb29Rg1fN",
+        "assignment": "1Pe1ypGtFI4q7oZfigfXT5aLoDuqkj2xU",
+        "ct": "1QuqDAWAkIgK1Mcau4psBzOtrRKNfQCpP",
+        "others": "1QwAyvd-ZMCpQJ2u8OZIRau5F0_gHWMVF",
+        "video": ""
+    },
+    {
+        "courseCode": "MATH 187",
+        "courseTitle": "Fourier and Laplace Transformations and Complex Variables",
+        "mid": "1G6qnQz0ujS8h62R2RDqUhqz7WZl1DhkV",
+        "final": "1G98Xd8nh6zqWbLaKFiRtDoObraFolwsL",
+        "assignment": "1OQnW5y9ziQL2Y6kgikLwgGBeReDsd53b",
+        "ct": "1OCqClO5AanLIKeUD2dek4aimOsuqMcGt",
+        "others": "1OEMMbpr8piZf7bdj6qFztV8uuBga-g0E",
+        "video": ""
+    },
+    {
+        "courseCode": "CSE 4329",
+        "courseTitle": "Digital System Design (DSD)",
+        "mid": "1Fbs7SQP4lgqrQmqgK4fKh0NCXQpadIL8",
+        "final": "1FZtWT48pz1yYpTDX7Y5yVHf9lEeWJNlB",
+        "assignment": "1MhFZGyhdDqjWTy4dwNg6-1mcqjPS_Qus",
+        "ct": "1LAxBv9AjZ5wN-a-DL4_3eo44l-ofrYDH",
+        "others": "1McpVk-xzJ5W-YXQ5HB8gMuZh5M8OLEve",
+        "video": ""
+    },
+    {
+        "courseCode": "IPE 3401",
+        "courseTitle": "Industrial and Operational Management",
+        "mid": "1FvUDRVLe1899YzDXjndMJPxee9FRjoAW",
+        "final": "1FvLwDxvBzih1CZa_67gm38K4V7DmSE3V",
+        "assignment": "1QMXbWqO8x65Ga6WWLnTuy6Jn8vQgjRhq",
+        "ct": "1QHb0pj2WJ17eVSCg9HVQepYK_BPb8FtC",
+        "others": "1QIiRVHUtFVaYN1jyOcaCTbcuwwGOd9VW",
+        "video": ""
+    },
+    {
+        "courseCode": "CSE 4326",
+        "courseTitle": "Microprocessors and Microcontrollers Laboratory",
+        "mid": "1Dx0TA0GWl2KNcE42HKjcQNNAVF64DJJs",
+        "final": "1DvxSkqTBwycVzz0ln_F58YQO0TOSq2wh",
+        "assignment": "1LXlS9ulIwIauq1-K8vWOHvCojKQY5LQ8",
+        "ct": "1LgyxncbEIXex5HjpXzKsTRg1z_HCb0VA",
+        "others": "1LcX__8OGnfsmDifI_7TOAwVgA_Vi9lnY",
+        "video": ""
+    },
+    {
+        "courseCode": "CSE 3522",
+        "courseTitle": "Database Management Systems Laboratory",
+        "mid": "1EIE40NPY1xm3BP_UYKDi7M_RyIXrmoG_",
+        "final": "1EXUKQzLuvqnqbfqgscXNDuFXfS_c6Hpt",
+        "assignment": "1JxNmVI4s8DV65vWIXzifSN8kmvTJ5tw7",
+        "ct": "1LnfbTxJZCO71-IF_NHxbH8IFz5ZoCBSS",
+        "others": "1Lo8e-Ad-oXaCSYcxSIIOeodzfFtYPHxx",
+        "video": ""
+    },
+    {
+        "courseCode": "CSE 4523",
+        "courseTitle": "Simulation And Modeling",
+        "mid": "1G5mBlBYT7MpqPiYzp1DaKS6UHykhLkVc",
+        "final": "1G6RliRqI9rnFGmK9JMpw8WnpCQcv5NCa",
+        "assignment": "1OVjEVfoH22l643_vXpwi-IDgl3SU3jsd",
+        "ct": "1OVI8roG73IxnggZHiVSp59RGW1gXYUOd",
+        "others": "1OVNT8lWu93rfVqSfK7B8X7j_NFv6BcFA",
+        "video": ""
+    },
+    {
+        "courseCode": "CSE 4325",
+        "courseTitle": "Microprocessors and Microcontrollers",
+        "mid": "1DETHJz58KeR2dllIN7Dcgnz-uLjNa3uu",
+        "final": "1DFC0KAbBf2T7VFv-DzGXhd_tUDQg6ebG",
+        "assignment": "1JKWLy7-I5pcgyvvARR58z1OoqGuQxWVi",
+        "ct": "1J9hcZ9GS7i_mCG2PaV0ZAW-BDMnulWbc",
+        "others": "1JLoUdvJdoPJ8ol7wYJuIxMfeIvaXdf_X",
+        "video": ""
+    },
+    null,
+    {
+        "courseCode": "CSE 3411",
+        "courseTitle": "System Analysis and Design",
+        "mid": "1DuwuqnVKUBkhaaPbGgjaSykYpwB56eWh",
+        "final": "1Fn9N7VXwX0oCY9qMZ_aMI0FrA3vs3ZsU",
+        "assignment": "1MWUt8avd4rTRVNbaeX3S1SdaYRaxfDhv",
+        "ct": "1MY9R0Ae1WR_eca7Dp1I-hVWq0vCVWGs-",
+        "others": "1Mbwukn8WwAB9U0Xl0H7ov_lMJmsjlsJV",
+        "video": ""
+    },
+    {
+        "courseCode": "ENG 101",
+        "courseTitle": "Intensive English I",
+        "mid": "1H983ZUGSrxVt4PLNNrdZqjigw48cIPeL",
+        "final": "1H3mu49oCMXHlWknlG-dMN4qt7fAImbaJ",
+        "assignment": "1RhelNIL1EjivSVYN1YhhcUd_v03ZEM1n",
+        "ct": "1RkCi082yzcRmOm0giuGFtzNT8GiunRqU",
+        "others": "1RUX-J9MuTmHAvc4VNH9_Hbp5y0BU2ajj",
+        "video": ""
+    },
+    {
+        "courseCode": "MATH 2201",
+        "courseTitle": "Coordinate geometry and Vector Analysis",
+        "mid": "1Cf0bXfCVMWXzvesZjWhwki8ZlZ1JbFwP",
+        "final": "1Cn-kbcud6JJNksQhMNGNj3rYcFCgMuu9",
+        "assignment": "1IrUetkTC4_0QSFrj5LvTkYLeJsMV7Flb",
+        "ct": "1JjBpfKrR1xFRqXbTPXqnVYdIAln2PNKp",
+        "others": "1JkOL-YMCPRMTyzqiKiolYQMNZNHrz8S8",
+        "video": ""
+    },
+    {
+        "courseCode": "MATH 2183",
+        "courseTitle": "Calculus and Linear Algebra",
+        "mid": "1DR9_kVe1txYPtc88y4GeLN2fcJicZCE8",
+        "final": "1DVWJSldDVFbtmFFHVZPRhV_CYWRqgOww",
+        "assignment": "1J-IaCXBmbBqbZjZxyN3KYNOmIXlHvdiu",
+        "ct": "1IyXWeRBwTKHfVRZ0YeeDjbMwaGJGP5FN",
+        "others": "1J5fJEbF0FRTeUDbeNbEirKeWl7WZG5Ls",
+        "video": ""
+    },
+    {
+        "courseCode": "CSE 2213",
+        "courseTitle": "Discrete Mathematics (DM)",
+        "mid": "1CtrCOZP0-8kFqYBvXjhd0gqlbBIENB02",
+        "final": "1EoS-oNHxv-TxbtkjDVA3jsDRJLcrGymB",
+        "assignment": "1K5KaM08KsxPPpBdYeRWEB4t05nl0Hf64",
+        "ct": "1KAMp08Xzyx1N-3g3pKPUOEjbh6T0EQO7",
+        "others": "1K6lrN1PxFs_Bge_2UW8O8x2p8BH8ata1",
+        "video": ""
+    },
+    {
+        "courseCode": "CSE 4891",
+        "courseTitle": "Data Mining",
+        "mid": "1FwSI44O71rwTvAcZQwaqtqkrxPM3Grbn",
+        "final": "1FxqPfCjlC6CBOCQbaLPFpzkmGaJbmkD5",
+        "assignment": "1Nwy3JCSxyrlu_5iwDctA7tmIdJ1JVCiH",
+        "ct": "1O7WYdsF2bVIR6iV_qCJ2RP3raGbRzmMf",
+        "others": "1O3kgauE8KRevk2poJ54vofYhAW36Aypu",
+        "video": ""
+    },
+    {
+        "courseCode": "ECO 4101",
+        "courseTitle": "Economics",
+        "mid": "1EaMdlj1X7v3BVP2XMW0Ew_-4T2POeU70",
+        "final": "1EZH6oKKtDhmGTBpc_rNRC8QUp6ybyGNN",
+        "assignment": "1LLruVgZDvplbZFTxP2Fq723vrNrNK-xH",
+        "ct": "1LLIXoiO0t2FnHgWkYPaqpTuHX-fTvaTx",
+        "others": "1LLgfnleB-6yWifP-wKYQb2cS-f7MgBpA",
+        "video": ""
+    },
+    {
+        "courseCode": "CSE 3711",
+        "courseTitle": "Computer Network",
+        "mid": "1ChbBgt9xp0ZXlRAaBeaQXQfik4tt0I3Y",
+        "final": "1Ch33BRvnVoC6vOFteDa7uL20ALK-lByw",
+        "assignment": "1JcawVMaLZ_D2xPVfCqJYCXz33TNw-gji",
+        "ct": "1JZ_O36LYwxHYEXx1S8WBO71YzbPVyDqH",
+        "others": "1Jb-vfmUUMoufnZ9_OelmxDw6eO8yySUs",
+        "video": ""
+    }
+]
