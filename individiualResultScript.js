@@ -11,9 +11,12 @@ const searchBtn = document.getElementById("search");
 let courseList;
 searchBtn.addEventListener("click",async (e)=>{
     const course = document.getElementById("course").value.toUpperCase();
+    if(course!=""){
+    
     const courseJSON = courseList.files.find(c=>c.name.includes(course));
     
     let exam = document.getElementById("exam").value.toLowerCase().trim();
+    let year = document.getElementById("year").value;
     
     DisplayLoader();
     const courseData = await fetchJSON(`https://gdriveapi.airamtafir.workers.dev/?dId=${courseJSON.id}`)
@@ -28,72 +31,27 @@ searchBtn.addEventListener("click",async (e)=>{
 
     if(exam=="mid")
     {
-        displayResult(midData.files,courseJSON.name);
+        displayResult(midData.files,courseJSON.name,year);
     }
     else if(exam=="final")
     {
-        displayResult(finalData.files,courseJSON.name);
+        displayResult(finalData.files,courseJSON.name,year);
 
     }
     else
     {
-        displayResult(midFinalData,courseJSON.name)
+        displayResult(midFinalData,courseJSON.name,year)
     }
 
-
-
-    //     .then(d=>d.json())
-    //     .then(d=>{
-    //         for(var i=0;i<d.length;i++)
-    //         {
-    //             const courseTitle = d[i].courseTitle;
-    //             const courseCode = d[i].courseCode;
-    //             const mid = d[i].mid;
-    //             const final = d[i].final;
-    //             const courseName = courseCode+" - "+ courseTitle
-    //             if(courseName.toUpperCase().search(course)!=-1 && (mid!="" || final!=""))
-    //             {
-                    
-    //                 // data = fetchData(d[i][exam]);
-    //                 // console.log(data)
-    //                 // displayResult(data);
-    //                 const url = `https://gdriveapi.airamtafir.workers.dev/?dId=${d[i][exam]}`
-    //                 return fetch(url)
-                   
-    //             }
-    //         }
-    //     })
-    //     .then(d=> 
-    //         {
-    //             if (!d.ok) {
-    //                 throw new Error("HTTP status " + d.status);
-    //             }
-    //             DisplayLoader();
-    //         })
-    //     .then(d=> {
-    //         const loader = document.getElementById("loader");
-    //         loader.style.display = "none";
-    //          console.log(d.files)
-    //         // return d.files;
-    //         displayResult(d.files);
-    //         // if(d.status==200 && d.result.length>0)
-    //         // {
-    //         //     displayResult(d,id);
-    //         // }
-    //         // else
-    //         // {
-    //         //     document.getElementById("heading").textContent = "";
-    //         //     const resultTable = document.getElementById("resultTable");
-    //         //     resultTable.innerHTML="";
-    //         //     document.getElementById("heading").textContent =   "Result Not Found";
-    //         //     document.getElementById("head").style.display= "flex";
-    //         // }
-            
-    //     });
+}
 });
 
-function displayResult(data,course)
+function displayResult(data,course,year)
 {
+    if(year!="")
+    {
+        data = data.filter(e=>e.name.split("_")[0]==year);
+    }
     document.getElementById("totalStudents").textContent =   course;
     const resultDiv = document.getElementById("results");
     const resultTable = document.getElementById("resultTable");
